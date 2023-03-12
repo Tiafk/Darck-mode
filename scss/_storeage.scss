@@ -1,0 +1,114 @@
+.storage {
+  display: flex;
+  width: 100%;
+  border-top:dashed 1px #6A6A6A;
+  border-bottom:dashed 1px #6A6A6A;
+  justify-content: center;
+  margin-top: 73px;
+  .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1165px;
+    justify-content: space-between;
+    margin-top: 55px;
+    .top {
+      display: flex;
+      .left-side {
+        margin-right: 39px;
+        .logo-sorage {
+          display: flex;
+          align-items: center;
+          color: #fff;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 28px;
+          margin-bottom: 28px;
+          img {
+            margin-right: 12px;
+          }
+        }
+        .title {
+          color: #fff;
+          font-weight: 700;
+          font-size: 48px;
+          line-height: 58px;
+        }
+        .text-1 {
+          margin-top: 52px;
+          margin-bottom: 11px;
+        }
+        .text-2 {
+          margin-bottom: 64px;
+        }
+        .text {
+          max-width: 420px;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 28px;
+          color: #E0E0E0;
+        }
+        .start {
+          cursor: pointer;
+          padding: 9px 17px;
+          border-radius: 6px;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 20px;
+          background-color: #24B47E;
+          color: #fff;
+          margin-left: 35px;
+          border: 0;
+        }
+      }
+      img {
+        display: flex;
+      }
+    }
+    .bot-container {
+      display: grid;
+      grid-template-columns: 280px 280px 280px;
+      grid-template-rows: 192px;
+      column-gap: 93px;
+      margin: 96px 0 15px 35px;
+      .box {
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        .title {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 28px;
+          margin: 16px 0 16px 0;
+        }
+        .text {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 28px;
+        }
+      }
+      .Interoperable {
+        .pichers {
+          display: flex;
+          width: 170px;
+          justify-content: space-between;
+          .cross {
+            display: flex;
+            align-self: center;
+          }
+        }
+      }
+      .Lightning {
+        img{
+          display: flex;
+        }
+      }
+      .Dependable {
+        .text {
+          font-weight: 400;
+          font-size: 13px;
+          line-height: 28px;
+        }
+      }
+    }
+  }
+}

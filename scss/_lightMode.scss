@@ -1,0 +1,227 @@
+.body {
+  transition: 1s;
+  font-family: 'Roboto', sans-serif;
+  background-color: #181818;
+}
+.light-mode {
+  background-color: #fff;
+  color: #181818;
+  .main {
+    .header {
+      .container {
+        .navigation {
+          .logo {
+            background-color: #d1d1d1;
+            padding: 15px;
+            border-radius: 20px;
+          }
+          .nav {
+            display: flex;
+            color: #000;
+            .arrow {
+              display: flex;
+              path {
+                fill: #000;
+              }
+            }
+          }
+        }
+      }
+      .btn-container {
+        .sing-in {
+          color: #000;
+        }
+      }
+    }
+    .storage {
+      .container {
+        .top {
+          .left-side {
+            .logo-sorage {
+              color: black;
+            }
+            .title {
+              color: #000;
+            }
+            .text {
+              color: #181818;
+            }
+          }
+        }
+        .bot-container {
+          .box {
+            color: #000;
+            .pichers {
+              .all-pic {
+                border: 1px solid #aeaeae;
+                border-radius: 6px;
+              }
+              .second {
+                padding: 3px;
+              }
+              .cross {
+                path {
+                  stroke: #000;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .sleek {
+      .container {
+        .sleek-title {
+          .title {
+            color: #000;
+          }
+          .sub-title {
+            color: #181818;
+          }
+        }
+        .bot-container {
+          .right-side {
+            .title {
+              color: #000;
+            }
+            .sub-title {
+              color: #000;
+            }
+            .title-card {
+              color: #000;
+            }
+            .card {
+              border-top: 1px solid #c5c5c5;
+              background-color:#dadada;
+              .top {
+                color: #000;
+              }
+              .text {
+                color: #181818;
+              }
+              .bot {
+                color: #181818;
+              }
+            }
+            .link {
+              .li {
+                color: #000;
+              }
+            }
+            .bottom-line {
+              background-color: #c5c5c5;
+            }
+          }
+        }
+      }
+    }
+    .simple {
+      .container {
+        .left-side {
+          .title-box {
+            .title {
+              color: #000;
+            }
+            .text {
+              color: #181818;
+            }
+          }
+          .block {
+            .box {
+              .pichers {
+                img {
+                  border: 1px solid #aeaeae;
+                  padding: 3px;
+                  border-radius: 6px;
+                }
+              }
+              .title-cdn {
+                color: #000;
+              }
+              .title-arrow {
+                color: #181818;
+              }
+              .text {
+                color: #181818;
+              }
+              .coming {
+                color: #fff;
+                background-color: rgb(0, 0, 0);
+              }
+            }
+          }
+        }
+      }
+    }
+    .integrates {
+      .container {
+        .left-side {
+          .title-box {
+            .title {
+              color: #000;
+            }
+            .text {
+              color: #181818;
+            }
+          }
+        }
+      }
+    }
+    .build {
+      .text {
+        color: #989898;
+        span {
+          color: #000;
+        }
+      }
+    }
+    .bottom {
+      .container {
+        .nav-container {
+          .container-image {
+            .superbase {
+              display: flex;
+              transition: 1s;
+              justify-content: center;
+              background-color: #d1d1d1;
+              padding: 15px;
+              border-radius: 20px;
+            }
+          }
+          .box {
+            .box__nav {
+              .box__list {
+                .link {
+                  color: #000000;
+                  &:first-child {
+                    color: #666666;
+                    &:hover {
+                      color: #666666;
+                    }
+                  }
+                  &:hover {
+                    color: #24B47E;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .footer {
+          .container {
+            .light {
+              .switch {
+                input {
+                  background-color: #989898;
+                  &::before {
+                    background-color: #fff;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
